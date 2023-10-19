@@ -1,0 +1,78 @@
+@import url("libs.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos al principio y al final */
+    align-items: center;
+    padding:  0 1em;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.producto-imagen {
+    width: 300px;
+    height: 300px;
+  }
+
+  .seguir-comprando {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1em;
+  }
+
+  footer {
+    background-color: black;
+    height: 25vh;
+    text-align: center;
+    color: #fff; 
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+  }
+
+  footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+  }
+
+  footer img {
+      width: 24px; /* Cambia el ancho según el tamaño deseado */
+      height: 24px; /* Cambia la altura según el tamaño deseado */
+  }
+
+  footer p {
+    font-size: 0.8em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

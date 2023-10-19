@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/pages/cart.css">
+    <script defer src="js/cart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>QUANTUM</h1>
+        <a href="cart.html">
+            <img src="images/cart-shopping.svg" alt="Carrito de compras">
+        </a>
+    </header>
+    <table>
+        <thead>
+            <tr class="carrito-vacio">
+                <th>Detalles del Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-carrito">
+        </tbody>
+        <tr id="fila-carrito-vacio">
+            <td colspan="4">
+                <div class="carrito-vacio-mensaje">
+                    <img src="images/sad.svg" alt="Carrito vacío">
+                    <p>Tu carrito está vacío</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <section>
+        <p>Total de Compra: $<span id="total-precio">0</span></p>
+        <p>Elementos en el carrito: <span id="numero-items">0</span></p>
+        <a class="seguir-comprando" href="index.html">Seguir Comprando</a>
+        <button id="abrir-modal">Continuar Compra</button>
+        <dialog id="modal" class="modal">
+             <form id="formulario-compra">
+                <h2>Completa tus datos</h2>
+                <label for="nombre">Nombre:</label>
+                 <input type="text" id="nombre" required>
+                 <label for="apellido">Apellido:</label>
+                 <input type="text" id="apellido" required>
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" required>
+                 <label for="metodo-pago">Método de Pago:</label>
+                 <select id="metodo-pago" required>
+                      <option value="tarjeta-credito">Tarjeta de Crédito</option>
+                       <option value="tarjeta-debito">Tarjeta de Débito</option>
+                  </select>
+                <button type="submit">Comprar</button>
+             </form>
+            <button id="cerrar-modal" class="cerrar-modal">&times;</button>
+            </dialog>
+    </section>
+    <footer>
+        <h4>QUANTUM</h4>
+        <nav>
+            <a class="icono-footer"  href="https://github.com/Juli202" target="_blank">
+                <img src="/images/github.svg" alt="GitHub">
+            </a>
+            <a class="icono-footer" href="www.linkedin.com/in/julieta-arenzo-01409320b" target="_blank">
+                <img src="/images/linkedin.svg" alt="LinkedIn">
+            </a>
+        </nav>
+        <p>© Todos los derechos reservados - 2023</p>
+    </footer>
+</body>
+</html>

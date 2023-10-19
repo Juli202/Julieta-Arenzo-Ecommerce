@@ -1,0 +1,180 @@
+
+/* mobile hasta 789px*/
+
+/* Estilos para el banner */
+.banner {
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner h2 {
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.banner p {
+    font-size: 1em;
+}
+
+.banner img {
+    max-width: 100%; /* Ajusta el tamaño de las imágenes al ancho del contenedor */
+}
+
+main h3 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+
+.lista-productos {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Cambiar la dirección del flujo a columna */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+.producto {
+    flex-basis: 100%;
+    margin: 0 5px 10px;
+    padding: 1em;
+}
+
+.boton-comprar,
+.boton-ver {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin: 0.5em;
+}
+
+.boton-comprar {
+    background-color: black;
+    color: white;
+}
+
+.boton-ver {
+    background-color: white;
+    color: black;
+    border: 1px solid #000;
+}
+
+
+.producto p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.producto h3 {
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+
+
+.producto-imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.linea-divisoria {
+    border: none; 
+    height: 1px; 
+    background-color: #ccc; 
+    margin:10px 20px
+  }
+
+/* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family:  'Nunito Sans', sans-serif;
+  }
+
+.modal h3, .modal p {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.modal .botones-cantidad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para los botones - y + */
+.modal .boton-menos,
+.modal .boton-mas {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* Estilos para el botón "Comprar ahora" */
+.modal .boton-comprar-ahora {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Estilos para el botón "Cancelar" */
+.modal .boton-cancelar {
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el icono de cancelar */
+.modal .boton-cancelar::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url('/images/cancel.svg');
+    background-size: cover;
+}
+  
+
+/* tablet 1280 px */
+@media screen and (min-width:790px) {}
+
+/*desktop 1366px*/
+@media screen and (min-width:136px) {}
+
+
+

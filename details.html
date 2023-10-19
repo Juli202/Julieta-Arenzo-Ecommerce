@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Details</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="/css/pages/details.css">
+    <script defer src="js/details.js"></script>
+</head>
+<body>
+    <header>
+        <h1>QUANTUM</h1>
+        <a href="cart.html">
+            <img src="images/cart-shopping.svg" alt="Carrito de compras">
+        </a>
+    </header>
+    <main>
+        <section class="producto" id="detalles-producto">
+            <h2 id="nombre-producto"></h2>
+            <img class="producto-imagen" id="imagen-producto" alt="imagen del producto">
+            <p id="precio-producto"></p>
+            <p id="descripcion-producto"></p>
+            <p id="material-producto"></p>
+            <p id="correa-producto"></p>
+            <p id="movimiento-producto"></p>
+        </section>
+        <form>
+            <p>Cantidad</p>
+            <fieldset>
+                <button id="btn-disminuir-cantidad">-</button>
+                <span id="cantidad-producto"></span>
+                <button id="btn-aumentar-cantidad">+</button>
+            </fieldset>
+            <button id="btn-agregar-carrito" type="button">Agregar al carrito</button>
+        </form>
+        <a class="seguir-comprando" href="index.html">Seguir Comprando</a>
+    </main>
+    <footer>
+        <h4>QUANTUM</h4>
+        <nav>
+            <a class="icono-footer"  href="https://github.com/Juli202" target="_blank">
+                <img src="/images/github.svg" alt="GitHub">
+            </a>
+            <a class="icono-footer" href="www.linkedin.com/in/julieta-arenzo-01409320b" target="_blank">
+                <img src="/images/linkedin.svg" alt="LinkedIn">
+            </a>
+        </nav>
+        <p>© Todos los derechos reservados - 2023</p>
+    </footer>
+</body>
+</html>

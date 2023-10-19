@@ -1,0 +1,34 @@
+.carrito-vacio th {
+    display: none;
+}
+
+.carrito-vacio td {
+    display: none;
+}
+
+#fila-carrito-vacio {
+    height: 70vh;
+}
+
+.carrito-vacio-mensaje {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.carrito-vacio-mensaje img {
+    height: 5em;
+    width: 5em;
+}
+
+.carrito-vacio-mensaje td {
+    text-align: center;
+}
+
+
+
+
+
+  

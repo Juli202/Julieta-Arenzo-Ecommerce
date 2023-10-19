@@ -1,0 +1,125 @@
+
+[
+  {
+    "nombre": "Elegancia Clásica",
+    "sku": "EC123",
+    "precio": 88900,
+    "descripcion": "Introducimos la versión de acero inoxidable de nuestro icónico reloj 'Elegancia Clásica'. Este impresionante reloj combina la elegancia y la durabilidad en una obra maestra de la relojería moderna.",
+    "material": "Acero inoxidable",
+    "correa": "Cuero",
+    "movimiento": "Cuarzo",
+    "imagen":"images/elegancia-clasica.png"
+  },
+  {
+    "nombre": "Deporte Extremo",
+    "sku": "DE456",
+    "precio": 71111,
+    "descripcion": "Diseñado para los amantes de los deportes extremos, el reloj 'Deporte Extremo' de Quantum es tu compañero de aventuras. Resistente al agua y construido con materiales de alta calidad, este reloj es duradero y funcional.",
+    "material": "Plástico",
+    "correa": "Silicona",
+    "movimiento": "Digital",
+    "imagen":"images/deporte-extremo.png"
+  },
+  {
+    "nombre": "Diamantes de Lujo",
+    "sku": "DL789",
+    "precio": 450000,
+    "descripcion": "Sumérgete en el lujo con el reloj 'Diamantes de Lujo' de Quantum. Este deslumbrante reloj de oro blanco presenta una deslumbrante colección de diamantes incrustados en su esfera. La correa de piel de cocodrilo añade un toque de sofisticación.",
+    "material": "Oro blanco",
+    "correa": "Piel de cocodrilo",
+    "movimiento": "Automático",
+    "imagen":"images/diamantes-de-lujo.png"
+  },
+  {
+    "nombre": "Estilo Casual",
+    "sku": "EC101",
+    "precio": 70999,
+    "descripcion": "El reloj 'Estilo Casual' de Quantum es la elección perfecta para un look relajado y a la moda. Su correa de tela cómoda se combina con una caja de acero inoxidable, lo que lo hace ideal para un uso diario.",
+    "material": "Acero inoxidable",
+    "correa": "Tela",
+    "movimiento": "Cuarzo",
+    "imagen":"images/estilo-casual.png"
+  },
+  {
+    "nombre": "Deporte Avanzado",
+    "sku": "DA202",
+    "precio": 220000,
+    "descripcion": "El reloj 'Deporte Avanzado' de Quantum es el compañero perfecto para tus aventuras deportivas. Equipado con GPS y pulsómetro, este reloj digital te permite rastrear y mejorar tu rendimiento. Su diseño resistente al agua lo hace ideal para deportes acuáticos y actividades al aire libre.",
+    "material": "Plástico",
+    "correa": "Silicona",
+    "movimiento": "Digital",
+    "imagen":"images/reloj-deportivo-gps-pulsometro.png"
+  },
+  {
+    "nombre": "Explorador Profesional",
+    "sku": "EP303",
+    "precio": 179990,
+    "descripcion": "El reloj 'Explorador Profesional' de Quantum está diseñado para buceadores profesionales y entusiastas de las actividades acuáticas. Resistente al agua y con una correa de goma duradera, este reloj es tu fiel compañero bajo el agua.",
+    "material": "Acero inoxidable",
+    "correa": "Goma",
+    "movimiento": "Automático",
+    "imagen":"images/explorador-profesional.png"
+  },
+  {
+    "nombre": "Retro Chic",
+    "sku": "RC404",
+    "precio": 115999,
+    "descripcion": "Revive la elegancia retro con el reloj 'Retro Chic' de Quantum. Su diseño vintage y la correa de malla metálica te transportarán a una época pasada de estilo clásico. La precisión del movimiento de cuarzo se combina con un toque de nostalgia para crear una experiencia única.",
+    "material": "Acero inoxidable",
+    "correa": "Malla metálica",
+    "movimiento": "Cuarzo",
+    "imagen":"images/retro-chic.png"
+  },
+  {
+    "nombre": "Brillo de Cristal",
+    "sku": "BC505",
+    "precio": 370000,
+    "descripcion": "El reloj 'Brillo de Cristal' de Quantum es un accesorio elegante y brillante diseñado para personas sofisticadas. Con incrustaciones de cristal en su esfera y una pulsera de metal, este reloj es una verdadera joya. Su movimiento de cuarzo garantiza una precisión confiable.",
+    "material": "Acero inoxidable",
+    "correa": "Pulsera de metal",
+    "movimiento": "Cuarzo",
+    "imagen":"images/brillo-de-cristal.png"
+  },
+  {
+      "nombre": "Reloj Hogwarts Edición Especial",
+      "sku": "HP003",
+      "precio": 159900,
+      "descripcion": "El Reloj Castillo de Hogwarts Edición Especial de Quantum es un tributo al imponente Castillo de Hogwarts. La esfera presenta detalles del castillo y sus torres. Este reloj es un accesorio esencial para los fanáticos de Harry Potter y el mundo mágico.",
+      "material": "Acero inoxidable",
+      "correa": "Cuero",
+      "movimiento": "Cuarzo",
+      "imagen": "images/reloj-castillo-hogwarts-edicion-especial.png"
+  }, 
+  {
+      "nombre": "Reloj Snitch Dorada Edición Especial",
+      "sku": "HP005",
+      "precio": 189900,
+      "descripcion": "El Reloj Snitch Dorada Edición Especial de Quantum captura la esencia de la icónica Snitch Dorada del Quidditch. La esfera presenta detalles intrincados del diseño de la Snitch. Este reloj es un tributo a la velocidad y la magia del Quidditch, y es un accesorio esencial para los amantes de Harry Potter.",
+      "material": "Acero inoxidable",
+      "correa": "Cuero",
+      "movimiento": "Cuarzo",
+      "imagen": "images/reloj-snitch-dorada-edicion-especial.png"
+  },
+  {
+      "nombre": "Reloj La Comarca Edición Especial",
+      "sku": "SA003",
+      "precio": 169999,
+      "descripcion": "El Reloj La Comarca Edición Especial de Quantum está inspirado en la apacible Comarca de El Señor de los Anillos. La esfera muestra paisajes verdes y la casa de Frodo Bolsón. Un reloj esencial para los amantes de la Tierra Media.",
+      "material": "Oro blanco",
+      "correa": "Cuero",
+      "movimiento": "Automático",
+      "imagen": "images/reloj-comarca-edicion-especial.png"
+  },
+  {
+      "nombre": "Reloj Anillo de Poder Edición Especial",
+      "sku": "SA002",
+      "precio": 199999,
+      "descripcion": "El Reloj Anillo de Poder Edición Especial de Quantum es una obra maestra para los seguidores de El Señor de los Anillos. Este reloj presenta una esfera que muestra el Anillo de Poder y el idioma oscuro de Mordor. Un reloj imprescindible para los amantes de la saga de Tolkien.",
+      "material": "Oro negro",
+      "correa": "Cuero",
+      "movimiento": "Automático",
+      "imagen": "images/reloj-anillo-poder-edicion-especial.png"
+  }
+]
+
+  
